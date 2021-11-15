@@ -8,7 +8,7 @@ public class Question_3 {
 
         try{
 
-        BufferedReader bufreader = new BufferedReader(new FileReader("/Users/robeilaregawi/Desktop/CS203Course/src/Lab_6_/Lab_6/File/doubleString"));
+        BufferedReader bufreader = new BufferedReader(new FileReader("/Users/robeilaregawi/Desktop/CS203Course/src/Lab_6_/Lab_6/File/doubleString.txt"));
         double sum = 0.0;
         double average = 0.0;
         int counter = 0;
