@@ -46,7 +46,7 @@ public class Question_5 {
 
         try {
 
-            BufferedReader palReader = new BufferedReader(new FileReader("/Users/robeilaregawi/Desktop/CS203Course/src/Lab_6_/Lab_6/File/WordBuff"));
+            BufferedReader palReader = new BufferedReader(new FileReader("/Users/robeilaregawi/Desktop/CS203Course/src/Lab_6_/Lab_6/File/WordBuff.txt"));
             String patString = palReader.readLine();
 
             String[] palArray = patString.split(", ");
