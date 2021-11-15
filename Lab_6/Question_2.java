@@ -17,13 +17,13 @@ public class Question_2 {
             String[] arr = s.split(" ");
 
             for (int i = 0; i < arr.length; i++) {
-                System.out.println(arr[i]);
+
                 if ((Integer.parseInt(arr[i]) == 10)) {
                     counter++;
                 }
             }
-            System.out.println(counter);
-            System.out.println(s + "");
+
+            System.out.println("10 found " +counter + " Times.");
             bufreader.close();
 
         } catch (FileNotFoundException e) {
